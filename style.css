@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* BACKGROUND */
+body {
+    background: #fdf6ec; /* cream utama */
+    color: #4b3f2f;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #fff8ee;
+    border-bottom: 1px solid #e6d5c3;
+}
+
+.navbar h1 {
+    font-size: 20px;
+    color: #5a4632;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5a4632;
+    margin-left: 15px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #f3e5d7;
+}
+
+/* CONTAINER */
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+/* CARD */
+.card {
+    background: #fffaf3;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid #eadbc8;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    color: #5a4632;
+}
+
+/* CENTER */
+.center {
+    text-align: center;
+}
+
+/* FOTO */
+.foto {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+/* IMAGE */
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.img-wrapper img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background: #d2b48c; /* cream gelap */
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #e6d5c3;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f9f1e7;
+}
+
+/* INFO TABLE */
+.info td {
+    text-align: left;
+}
+
+/* EMAIL */
+.email {
+    color: #a67c52;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #8b6f4e;
+}
