@@ -5,10 +5,11 @@
 **Teks Tebal (Bold)**
 *Teks Miring (Italic)*
 
-- Poin List
-- Poin List lainnya
+- Point list
+- Izin
 
 `kode singkat` (Inline code)
-![foto saya](jpeg/tampilan-Daffa.jpeg)
+- izin menambahkan foto saya
+![foto saya](https://github.com/DaffaPutra-debug/belajar-web-dasar/blob/master/Daffa.jpeg?raw=true)
 
 
